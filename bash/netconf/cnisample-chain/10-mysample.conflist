@@ -1,0 +1,12 @@
+{
+  "cniVersion": "0.4.0",
+  "name": "mysample",
+  "plugins": [
+    {
+      "type": "cnisample.sh"
+    },
+    {
+      "type": "cnisample-chain.sh"
+    }
+  ]
+}
