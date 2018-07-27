@@ -3,7 +3,7 @@ The cnisample has Kubernetes CNI sample plugins. They are very simple and useful
 
 ## Preparation
 
-You can try to run the sample with [cnitool]{https://github.com/containernetworking/cni/tree/master/cnitool}. 
+You can try to run the sample with [cnitool](https://github.com/containernetworking/cni/tree/master/cnitool). 
 
 Install cnitool:
 
