@@ -20,6 +20,13 @@ sudo ip netns add testing
 ## Bash
 Bash script depends on `jq`.
 
+Git clone:
+
+```
+git clone https://github.com/hichihara/cnisample
+cd cnisample
+```
+
 ### Not chain
 
 Try to run CNI `ADD` command:
