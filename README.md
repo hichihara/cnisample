@@ -55,6 +55,17 @@ Try to run chain CNI `DEL` command:
 sudo CNI_PATH=./bash/ NETCONFPATH=./bash/netconf/cnisample-chain cnitool del mysample /var/run/netns/testing
 ```
 
+## Golang
+
+### Noop
+
+```
+cd go/noop
+mkdir bin
+go build -o ./bin/noop
+sudo CNI_PATH=./bin NETCONFPATH=./netconf cnitool add mysample /var/run/netns/testing
+```
+
 ## Clean up
 
 ```
